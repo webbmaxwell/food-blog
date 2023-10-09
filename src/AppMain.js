@@ -1,4 +1,4 @@
-import logo from './garlic.png';
+import logo from './abstract_garlic.png';
 import './App.css';
 
 function AppMain () {
