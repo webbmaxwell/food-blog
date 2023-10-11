@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-function NavBar() {
+export default function NavBar() {
     return (
         <nav>
             <ul>
