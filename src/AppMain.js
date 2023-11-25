@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import Header from './Components/Header';
 import FrenchOnionSoup from './Components/BlogPosts/FrenchOnionSoup';
+import AppRouter from './Components/AppRouter';
 
 function AppMain () {
     return (
@@ -10,6 +11,7 @@ function AppMain () {
             <NavBar />
             <Header />
             <FrenchOnionSoup />
+            <AppRouter />
         </div>
     )
 }
