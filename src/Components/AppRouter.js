@@ -17,6 +17,10 @@ function AppRouter() {
                 path="/recipes" 
                 render={props => <Recipes {...props}/>} 
             />
+            <Route
+                path="/about"
+                render={props => <About {...props}/>}
+            />
         </div>
     )
 }
