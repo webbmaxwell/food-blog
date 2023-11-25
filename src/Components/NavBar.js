@@ -1,21 +1,21 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink, Nav } from "react-router-dom";
 
 export default function NavBar() {
     return (
         <nav>
             <ul>
                 <li>
-                    <Link to="">Home</Link>
+                    Home
                 </li>
                 <li>
-                    <Link to="/blogposts">All Posts</Link>
+                    All Posts
                 </li>
                 <li>
-                    <Link to="/recipes">Recipes</Link>>
+                    Recipes
                 </li>
                 <li>
-                    <Link to="/about">About</Link>>
+                    About
                 </li>
             </ul>
         </nav>
