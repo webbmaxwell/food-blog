@@ -1,27 +1,30 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Router, Routes, Route } from 'react-router-dom';
 
 import { HomePage } from './Home.js';
-import { BlogPage } from './BlogPage.js';
-import { Recipes } from './Recipes.js';
+import BlogPage from './BlogPage.js';
+import Recipes from './Recipes.js';
+import About from './About.js';
 
 function AppRouter() {
     return (
-        <div className="">
-            <Route exact path="/" render={props => <HomePage />} />
-            <Route 
-                path="/blogposts" 
-                render={props => <BlogPage {...props}/>} 
-            />
-            <Route 
-                path="/recipes" 
-                render={props => <Recipes {...props}/>} 
-            />
-            <Route
-                path="/about"
-                render={props => <About {...props}/>}
-            />
-        </div>
+        <Router>
+            <Routes className="">
+                <Route exact path="/" render={props => <HomePage />} />
+                <Route 
+                    path="/blogposts" 
+                    render={props => <BlogPage {...props}/>} 
+                />
+                <Route 
+                    path="/recipes" 
+                    render={props => <Recipes {...props}/>} 
+                />
+                <Route
+                    path="/about"
+                    render={props => <About {...props}/>}
+                />
+            </Routes>
+        </Router>
     )
 }
 

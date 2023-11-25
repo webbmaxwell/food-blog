@@ -17,3 +17,5 @@ function BiscuitsNGravyRecipe() {
         </div>
     )
 }
+
+export default BiscuitsNGravyRecipe;
