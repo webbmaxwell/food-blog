@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import { Home } from './Home.js';
+import { HomePage } from './Home.js';
 import { BlogPage } from './BlogPage.js';
 import { Recipes } from './Recipes.js';
 
@@ -9,8 +9,14 @@ function AppRouter() {
     return (
         <div className="">
             <Route exact path="/" render={props => <HomePage />} />
-            <Route path="/blogposts" render={props => <BlogPage />} />
-            <Route path="/recipes" render={props => <Recipes />} />
+            <Route 
+                path="/blogposts" 
+                render={props => <BlogPage {...props}/>} 
+            />
+            <Route 
+                path="/recipes" 
+                render={props => <Recipes {...props}/>} 
+            />
         </div>
     )
 }
