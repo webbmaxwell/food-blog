@@ -21,3 +21,5 @@ const MyApp = () => {
 
     return routeResult || <NotFoundPage />;
 };
+
+export default routes;
