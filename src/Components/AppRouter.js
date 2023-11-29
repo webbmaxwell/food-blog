@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRoutes } from 'hookrouter';
+import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
 
 import { HomePage } from './Home.js';
 import BlogPage from './BlogPage.js';
@@ -7,19 +7,14 @@ import Recipes from './Recipes.js';
 import About from './About.js';
 import NotFoundPage from './NotFoundPage.js';
 
-const routes = {
-    '/': () => <HomePage />,
-    '/blogposts': () => <BlogPage />,
-    '/blogposts/:id': ({id}) => <BlogPage id={id} />,
-    '/recipes': () => <Recipes />,
-    '/recipes/:id': ({id}) => <Recipes id={id} />,
-    '/about': () => <About />
-};
+export function AppRouter(props) {
+    
+    const router = createBrowserRouter(
+        createRoutesFromElements(
+            <Route path='/' element={<Root />}>
 
-const MyApp = () => {
-    const routeResult = useRoutes(routes);
+            </Route>
+        )
+    )
 
-    return routeResult || <NotFoundPage />;
-};
-
-export default routes;
+}

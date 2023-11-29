@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { NavLink, Nav } from "react-router-dom";
 
-import { useRoutes, A } from "hookrouter";
-import routes from "./AppRouter";
+import  from "./AppRouter";
 import NotFoundPage from "./NotFoundPage";
 
 export default function NavBar() {
@@ -12,8 +11,7 @@ export default function NavBar() {
         <nav>
             <ul>
                 <li>
-                    <A href='/'>Home</A>
-                    {routeResult || <NotFoundPage />}
+                    Home
                 </li>
                 <li>
                     All Posts
