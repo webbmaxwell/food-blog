@@ -11,7 +11,7 @@ function AppMain () {
             <NavBar />
             <Header />
             <FrenchOnionSoup />
-            {/* <AppRouter /> */}
+            <AppRouter />
         </div>
     )
 }
