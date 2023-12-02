@@ -5,9 +5,17 @@ import Header from './Components/Header';
 import FrenchOnionSoup from './Components/BlogPosts/FrenchOnionSoup';
 import AppRouter from './Components/AppRouter';
 
+import { Route, Routes } from 'react-router-dom';
+
 function AppMain () {
     return (
         <div className="App">
+            <Routes>
+                <Route path="/"/>
+                <Route path="/blogposts" />
+                <Route path="/recipes"/>
+                <Route path="/about"/>
+            </Routes>
             <NavBar />
             <Header />
             <FrenchOnionSoup />
