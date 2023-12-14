@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-function BiscuitsNGravy() {
+export function BiscuitsNGravy() {
     return(
         <div>
             <h3>Biscuits & Gravy</h3>
@@ -14,5 +14,3 @@ function BiscuitsNGravy() {
         </div>
     )
 };
-
-export default BiscuitsNGravy;

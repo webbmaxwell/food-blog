@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link, Nav } from "react-router-dom";
+import { AllPosts } from "./BlogPosts/AllPosts";
 
 
 export default function NavBar() {
@@ -7,7 +8,9 @@ export default function NavBar() {
         <nav>
             <ul>
                 <li><Link to="/" >Home</Link></li>
-                <li><Link to="/blogposts" >All Posts</Link></li>
+                <li>
+                    <Link to="/blogposts" >All Posts</Link>
+                </li>
                 <li><Link to="/recipes" >Recipes</Link></li>
                 <li><Link to="/about" >About</Link></li>
             </ul>
