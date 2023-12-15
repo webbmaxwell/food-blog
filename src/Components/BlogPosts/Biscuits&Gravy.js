@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export function BiscuitsNGravy() {
     return(
-        <div>
+        <div className="post">
             <h3>Biscuits & Gravy</h3>
             <p>Growing up, I had heard about biscuits and gravy, and I have always been a fan of biscuits, but never tried the dish. That was until I was in high school and helping a friend move. </p>    
             <p>We got up early on a Saturday and loaded his stuff into my car to take down to his new house that was just down the road.</p>

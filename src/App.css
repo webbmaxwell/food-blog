@@ -1,10 +1,11 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    align-self:flex-start;
+    height: 5em;
+    pointer-events: none;
 }
 
 .Blogpost {
@@ -20,17 +21,44 @@
 
 .App-header {
   background-color: #30362f;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #96C5F7;
+}
+
+.nav-bar {
+    background-color: #30362F;
+    overflow: auto;
+}
+
+.nav-group {
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.post {
+    padding: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 /*@keyframes App-logo-spin {

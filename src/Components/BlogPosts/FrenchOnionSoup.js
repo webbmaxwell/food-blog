@@ -4,7 +4,7 @@ function FrenchOnionSoup() {
     let now = new Date();
     let year = now.getFullYear();
     return(
-        <div className="Blogpost" id="latest">
+        <div className="post">
             <h3>French Onion (Soup)-erpower</h3>
             <p>I have been a fan of French Onion Soup since I first tried it around {year - 2018} years ago on a date to the Red Rock Brewery with my wife. I had never experienced flavors in that combination before, or that much cheese in a single dish!</p>
             <p>I have been meaning to try it myself, but between the time it takes to make it, needing the ramekins/oven-safe bowls, and the cost of the dang Gouda, I had plenty of reasons to keep delaying my attempt. That all changed when I discovered <a href="https://www.thekitchn.com/how-to-make-french-onion-soup-in-the-slow-cooker-start-to-finish-cooking-lessons-from-the-kitchn-215696?utm_source=pinterest&utm_medium=social&utm_campaign=managed&utm_content=custompin&crlt.pid=camp.1fPOaGLAuX01" target="_blank">this recipe</a> on Pinterest for a slow-cooker French Onion Soup!</p>

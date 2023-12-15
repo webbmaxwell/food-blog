@@ -4,13 +4,13 @@ import "../App.css";
 export default function Header() {
     return(
         <header className="App-header">
-                <img 
+                {/* <img 
                     src={logo} 
                     className="App-logo" 
                     alt="garlic logo" 
-                />
+                /> */}
                 <h1>Max's Food Blog</h1>
-                <h2>Scroll down to see the latest blogpost</h2>
+                <h3>Here is the latest blogpost:</h3>
         </header>
     )
 }
