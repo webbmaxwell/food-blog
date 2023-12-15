@@ -9,7 +9,7 @@ export default function Header() {
                     className="App-logo" 
                     alt="garlic logo" 
                 /> */}
-                <h1>Max's Food Blog</h1>
+                <h1 className="title">Max's Food Blog</h1>
                 <h3>Here is the latest blogpost:</h3>
         </header>
     )

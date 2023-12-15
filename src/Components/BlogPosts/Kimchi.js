@@ -3,7 +3,7 @@ import styled from "styled-components";
 function Kimchi() {
     return(
         <div className="post">
-            <h3>Adventures in Kimchi</h3>
+            <h3 className="blog-title">Adventures in Kimchi</h3>
             <p>I experimented with <strong>kimchi</strong> for the first time this week!</p>
             <p>If you aren't aware, kimchi is Korean pickled/fermented vegetables, most often cabbage. It's sort of like a spicy sauerkraut.</p>
             <p>I was introduced to the idea of kimchi a number of years ago during the Card Wars episode of Adventure Time, but never knew how I might use it or even where I might buy some.</p>

@@ -8,9 +8,8 @@
     pointer-events: none;
 }
 
-.Blogpost {
-    text-align: left;
-    margin: 2em;
+.title {
+    color: #FFFBDB; 
 }
 
 /*@media (prefers-reduced-motion: no-preference) {
@@ -46,19 +45,33 @@
     justify-content: space-around;
     align-items: center;
     overflow: auto;
+    list-style-type: none;
 }
 
 .nav-item {
-    color: white;
+    color: #96C5F7;
     text-decoration: none;
+    list-style-type: none;
+}
+
+.blog-title {
+    padding: 0.25rem;
+    border: #30362F solid;
+    border-color: #30362F;
+    border-width: 0.25rem;
+    border-radius: 1rem;
 }
 
 .post {
+    background-color: #708B75;
     padding: 3rem;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
+    border-color: #30362F;
+    overflow: auto;
+
 }
 
 /*@keyframes App-logo-spin {
